@@ -1,0 +1,20 @@
+{% extends 'todo_app/base.html' %}
+
+{% block title %}Lista de Tarefas{% endblock %}
+
+{% block content %}
+    <h1>Minhas Tarefas</h1>
+    
+    {% if tarefas %}
+        <ul>
+            {% for tarefa in tarefas %}
+                <li>
+                    <a href="{% url 'visualizar_tarefa' tarefa.id %}">{{ tarefa.titulo }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Não há tarefas cadastradas ainda.</p>
+    {% endif %}
+
+{% endblock %}

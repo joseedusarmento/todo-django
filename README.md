@@ -24,9 +24,9 @@ O objetivo é fornecer uma interface simples e funcional para organização de a
 ### 1️⃣ Pré-requisitos
 Antes de executar o projeto, certifique-se de ter instalado:
 - **Python 3.x**
-- **Pip** (gerenciador de pacotes do Python)
-- **Virtualenv** (opcional, mas recomendado)
-- **Django** (versão compatível com o projeto)
+- **Pip** 
+- **Virtualenv** 
+- **Django** 
 
 ### 2️⃣ Clonar o repositório
 ```
@@ -62,9 +62,9 @@ O sistema estará disponível em: **http://127.0.0.1:8000/**
 ---
 
 ## 🛠 Tecnologias Utilizadas
-- **Django** (framework backend)
-- **SQLite** (banco de dados padrão do Django)
-- **HTML, CSS, JavaScript** (frontend básico)
+- **Django** 
+- **SQLite** 
+- **HTML, CSS**
 
 ---
 
